@@ -5,8 +5,10 @@ public class AdressePostale {
     public String libelleRue;
     public String codePostal;
     public String ville;
+    
+    //TODO Constructeur ici :
 
-    // Constructeur avec paramètres
+    // Constructeur avec 4 paramètres 
     public AdressePostale(int numeroRue, String libelleRue, String codePostal, String ville) {
         this.numeroRue = numeroRue;
         this.libelleRue = libelleRue;
