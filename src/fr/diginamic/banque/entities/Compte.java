@@ -21,7 +21,8 @@ public class Compte {
     }
 
     // Redéfinition de la méthode toString pour afficher les informations du compte
+    @Override
     public String toString() {
-        return "Compte{" + "numero='" + numero + '\'' + ", solde=" + solde + '}';
+    	return "Compte numéro: " + numero + ", Solde: " + solde;
     }
 }
