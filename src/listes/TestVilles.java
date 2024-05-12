@@ -42,7 +42,7 @@ public class TestVilles {
         villes.remove(villeMoinsPeuplee);
         System.out.println("Liste après suppression de la ville la moins peuplée : " + villes);
 
-        // Mettre les noms des villes de plus de 100 000 habitants en majuscules
+       
         iter = villes.iterator();
         while (iter.hasNext()) {
             Ville ville = iter.next();
