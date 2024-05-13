@@ -1,11 +1,16 @@
 package fr.diginammic.maison;
 
 public abstract class Piece {
-	protected String nom;
-    protected String prenom;
+	protected double superficie;
+    protected int etage;
 
-    public Piece(String nom, String prenom) {
-        this.nom = nom;
-        this.prenom = prenom;
+    public Piece(double superficie, int etage) {
+        this.superficie = superficie;
+        this.etage = this.etage;
+    }
 
+	
+	
+
+    
 }
