@@ -1,5 +1,13 @@
 package fr.diginamic.banque.entities;
 
+/**
+ * @author fouad
+ *
+ */
+/**
+ * @author fouad
+ *
+ */
 public class CompteTaux extends Compte {
 	private double taux;
 
@@ -10,8 +18,7 @@ public class CompteTaux extends Compte {
 		// TODO Auto-generated constructor stub
 		
 		//methode toString pour inclure le tuax de remuénaration
-		
-		
+ 
 	
 	}
 

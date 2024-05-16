@@ -20,7 +20,7 @@ public class TestStringBuilder {
 			  long fin = System.currentTimeMillis();
 		        System.out.println("Temps d'exécution avec StringBuilder: " + (fin - debut) + " ms");
 			
-		
+	
 	}
 		private static void testStringConcat() {
 			long debut2=System.currentTimeMillis();

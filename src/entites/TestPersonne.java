@@ -5,6 +5,9 @@ import entites2.Personne;
 
 
 public class TestPersonne {
+    /**
+     * @param args
+     */
     public static void main(String[] args) {
         AdressePostale adresse1 = new AdressePostale(123, "Rue des Lilas", "75008", "Paris");
         AdressePostale adresseCorriger = new AdressePostale(456, "Avenue des Champs-Elysées", "75008", "Paris");
